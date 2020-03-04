@@ -32,7 +32,7 @@ class Accordion extends Component {
 
   renderItem(idX, activeSection, section) {
     return (
-      <li className="AccordionItem">
+      <li className="AccordionItem" key={idX}>
         <button onClick={() => this.handleSetActiveSection(idX)}>{section.title}</button>
         {(activeSection === idX) && <p>{section.content}</p>}
       </li>

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+  margin: auto;
+}
+
+ul, #root{
+  width: 90%;
+}
+
+ul, li {
+  padding: 10px;
+  border: 3px solid black;
+  margin: 10px 0 10px 0;
+}
+
+button {
+  padding: 10px;
+}
